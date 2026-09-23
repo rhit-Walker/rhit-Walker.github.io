@@ -11,8 +11,6 @@ document.querySelectorAll(".show-more").forEach((button) => {
 
         details.hidden = isOpen;
         button.setAttribute("aria-expanded", String(!isOpen));
-        button.textContent = isOpen
-            ? `Show more about ${button.dataset.project}`
-            : `Show less about ${button.dataset.project}`;
+        button.textContent = isOpen? `Show more`: `Show less`;
     });
 });
