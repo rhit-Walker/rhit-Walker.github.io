@@ -54,7 +54,7 @@ header a, footer a {
     color: rgb(0, 140, 255);
 }
 header a:visited, footer a:visited {
-    color: lightgray;
+    color: #623b80;
 }
 
 button {
