@@ -10,7 +10,6 @@ body {
 
 header, footer {
     background: #800000;
-    color: white;
 }
 
 nav, main, footer p {
@@ -44,11 +43,19 @@ img {
     height: auto;
 }
 
-a { color: #075779; }
-a:visited { color: #623b80; }
+a {
+    color: #1692c7;
+}
+a:visited {
+    color: #623b80; 
+}
 
-header a, footer a { color: rgb(0, 140, 255); }
-header a:visited, footer a:visited { color: lightgray; }
+header a, footer a {
+    color: rgb(0, 140, 255);
+}
+header a:visited, footer a:visited {
+    color: lightgray;
+}
 
 button {
     padding: 10px 16px;
@@ -60,13 +67,19 @@ button {
     cursor: pointer;
 }
 
-button:hover { background: #405260; }
+button:hover {
+    background: #405260;
+}
 
 a:focus-visible, button:focus-visible {
     outline: 3px solid #e59632;
     outline-offset: 3px;
 }
 
-[hidden] { display: none !important; }
+[hidden] {
+    display: none !important;
+}
 
-footer { padding: 16px 0; }
+footer {
+    padding: 16px 0;
+}
