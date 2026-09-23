@@ -44,10 +44,23 @@ img {
 }
 
 a {
-    color: #1692c7;
+    color: #075779;
 }
+
 a:visited {
-    color: #004080; 
+    color: #004080;
+}
+
+header a, footer a {
+    color: #a8dcff;
+}
+
+header a:visited, footer a:visited {
+    color: #79c6ff;
+}
+
+footer a {
+    margin-right: 15px;
 }
 
 
