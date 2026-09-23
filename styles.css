@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-    background: #1b2d3a;
+    background: #800000;
     color: white;
 }
 
@@ -47,8 +47,8 @@ img {
 a { color: #075779; }
 a:visited { color: #623b80; }
 
-header a, footer a { color: white; }
-header a:visited, footer a:visited { color: #c9e1ff; }
+header a, footer a { color: rgb(0, 140, 255); }
+header a:visited, footer a:visited { color: lightgray; }
 
 button {
     padding: 10px 16px;
