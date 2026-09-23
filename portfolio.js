@@ -11,6 +11,6 @@ document.querySelectorAll(".show-more").forEach((button) => {
 
         details.hidden = isOpen;
         button.setAttribute("aria-expanded", String(!isOpen));
-        button.textContent = isOpen? `Show more`: `Show less`;
+        button.textContent = isOpen? "Show more": "Show less";
     });
 });
