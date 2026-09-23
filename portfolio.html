@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quentin Walker | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Projects</h1>
+            <p>Here are two projects I've worked on during my electrical engineering studies.</p>
+
+            <article>
+                <h2>Common-Emitter Amplifier</h2>
+                <img
+                    src="https://placehold.co/400x250.png?text=Amplifier+Photo"
+                    alt="Placeholder image for the common-emitter amplifier project"
+                    width="400"
+                    height="250"
+                >
+                <p>I designed, built, and tested a BJT common-emitter amplifier.</p>
+                <p><strong>Technologies:</strong> BJT circuits, PSpice, oscilloscope</p>
+
+                <button type="button" class="show-more"
+                        aria-expanded="false" aria-controls="amplifier-details"
+                        data-project="the amplifier">
+                    Show more about the amplifier
+                </button>
+
+                <div id="amplifier-details" hidden>
+                    <p>
+                        The design called for a gain of at least 100 and a
+                        voltage swing of at least ±3.5 V. I modeled the circuit
+                        in PSpice, then measured its gain and swing in the lab.
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <h2>Pipelined RISC-V Processor</h2>
+                <img
+                    src="https://placehold.co/400x250.png?text=Processor+Photo"
+                    alt="Placeholder image for the RISC-V processor project"
+                    width="400"
+                    height="250"
+                >
+                <p>I worked with a team to design a five-stage pipelined RISC-V processor.</p>
+                <p><strong>Technologies:</strong> Verilog, RISC-V, digital design</p>
+
+                <button type="button" class="show-more"
+                        aria-expanded="false" aria-controls="processor-details"
+                        data-project="the processor">
+                    Show more about the processor
+                </button>
+
+                <div id="processor-details" hidden>
+                    <p>
+                        I developed a forwarding unit to pass results between
+                        stages and a hazard detection unit to stall the pipeline
+                        when needed.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="mailto:walkerqr@rose-hulman.edu">Email me</a></p>
+    </footer>
+</body>
+</html>
