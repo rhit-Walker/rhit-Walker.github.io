@@ -1,4 +1,5 @@
 //Source for aria related attributes: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes
+// Source for querySelector: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 document.querySelector("header").innerHTML = `
     <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
