@@ -6,9 +6,7 @@
 document.querySelectorAll(".show-more").forEach(function (button) {
     button.addEventListener("click", function () {
         const details = document.getElementById(button.getAttribute("aria-controls"));
-
         const isOpen = button.getAttribute("aria-expanded") === "true";
-
         details.hidden = isOpen;
         button.setAttribute("aria-expanded", String(!isOpen));
         button.textContent = isOpen ? "Show more" : "Show less";

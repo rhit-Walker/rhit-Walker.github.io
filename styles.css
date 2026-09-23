@@ -1,4 +1,8 @@
 
+/* Used these two sites to create the layout and styling for the website:
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference */
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -83,9 +87,7 @@ a:focus-visible, button:focus-visible {
     outline-offset: 3px;
 }
 
-[hidden] {
-    display: none !important;
-}
+
 
 footer {
     padding: 16px 0;
